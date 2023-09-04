@@ -127,11 +127,27 @@ input, textarea {
 .checkbox-label-text {
     display: flex;
     flex-direction: row;
+    gap: 8px;
+}
+.text-first-part {
+    color: #8E8F99;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
 
 .text-privat {
     color: #4D5AE5;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
 }
+
 .logo-header {
     text-transform: uppercase;
     text-decoration: none;
