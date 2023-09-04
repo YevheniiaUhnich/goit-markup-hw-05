@@ -30,6 +30,57 @@
     margin: 0 auto;
 }
 
+.modal {
+    display: ;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 408px;
+    height: 584px;
+    overflow: auto;
+    background-color: #FCFCFC; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    justify-content: flex-start;
+  }
+
+input, textarea {
+    padding: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #8E8F99;
+  }
+
+.input-wrap {
+   
+}
+
+.icon-in-boxes {
+    position: absolute;
+}
+
+.label-coment-title {
+
+}
+
+.title-form {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
 .logo-header {
     text-transform: uppercase;
     text-decoration: none;
@@ -586,6 +637,93 @@
     margin-bottom: 16px;
 }
 
+.footer-form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    align-items: center;
+}
+.form-field {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-bottom: 16px;
+}
+
+.form-style {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-left: 80px;
+    
+}
+
+form-style::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.form-style-field {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: #2e2f42;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.form-style-set {
+    font-family: Roboto, sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: #2E2F42;
+}
+
+.form-style-set:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color:  #2E2F42;
+}
+
+.form-style-set:focus {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color:  #2E2F42;
+}
+
+.form-style {
+    height: 40px;
+}
+
+.footer-icons-frame {
+    margin-left: 16px;
+}
+
+.field-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
  ul {
     list-style-type: none;
     margin-bottom: 0;
