@@ -124,6 +124,14 @@ input, textarea {
     color: #2E2F42;
 }
 
+.checkbox-label-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-privat {
+    color: #4D5AE5;
+}
 .logo-header {
     text-transform: uppercase;
     text-decoration: none;
