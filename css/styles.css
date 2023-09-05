@@ -117,12 +117,10 @@ input, textarea {
 
 .close-x-icon:hover {
     fill: #ffffff;
-
 }
 
 .close-x-icon:focus {
-    fill: #ffffff;
-    
+    fill: #ffffff;  
 }
 
   .send-form {
@@ -157,9 +155,15 @@ input, textarea {
     font-weight: 400;
     font-size: 12px;
     color: #8E8F99;
-    line-height: 1.5;
-    letter-spacing: 0.02em;  
+    line-height: 1.17;
+    letter-spacing: 0.04em;  
     margin-top: 8px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-input-wrap {
+    margin-bottom: 8px;
 }
 
 .input-wrap {
@@ -167,15 +171,50 @@ input, textarea {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+    position: relative; 
+}
+
+.text-line-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    border-radius: 4px;
+    background-color: transparent; 
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    border-color: #4D5AE5;
 }
 
 .icon-in-boxes {
     position: absolute;
-    margin: 4px
+    margin: 4px;
+    left: 16px;
+    top: 50%; 
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.comment-text-input {
+    margin-bottom: 16px;
 }
 
 .label-coment-title {
-    margin: 8px 0;
+    font-size: 12px;
+    width: 100%; 
+    height: 120px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent; 
+    padding: 8px 16px; 
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: #4D5AE5;
+
 }
 
 .title-form {
@@ -189,20 +228,39 @@ input, textarea {
     margin-bottom: 16px;
 }
 
+.checkbox-addition {
+    margin-bottom: 24px;
+}
+
 .checkbox-label-text {
     display: flex;
     flex-direction: row;
     gap: 8px;
+    font-size: 12px;
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
 .text-first-part {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: #8E8F99;
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
 }
+
+
 
 .text-privat {
     color: #4D5AE5;
