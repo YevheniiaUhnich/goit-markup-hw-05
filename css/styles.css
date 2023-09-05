@@ -859,8 +859,7 @@ span:checked {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .form-field {
@@ -897,8 +896,6 @@ form-style::placeholder {
     width: 264px;
     height: 40px;
     background-color: transparent;
-    border: 1px solid #FFFFFF;
-    border-radius: 4px;
     font-size: 12px;
     line-height: 1.5; 
     letter-spacing: 0.04em;
@@ -939,13 +936,6 @@ input::placeholder {
 
 .footer-icons-frame {
     margin-left: 16px;
-}
-
-.field-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
 }
  ul {
     list-style-type: none;
