@@ -391,20 +391,18 @@
          <form class="form-style">
           
           <label class="form-style-set"> 
-          <input class="form-style-field" type="E-mail" name="subscribe" placeholder="E-mail" autofocus />  
+          <input class="form-style-field" type="email" name="subscribe" placeholder="E-mail" autofocus />  
           </label>
 
           <div class="field-box">
-          <button class="footer-button" type="submit" >Subscribe
-            <svg class="footer-icons-frame" width="24" height="20">
-              <use href="./images/icons.svg#icon-Frame"></use>
-              </svg></a>
+          <button class="footer-button" type="submit">Subscribe
+            <svg class="footer-icons-frame" width="24" height="24">
+            <use href="./images/icons.svg#icon-Frame"></use>
+            </svg></button>
           </div>
-
-          </button>
         </form>
       </div>
-    </div> 
+      </div> 
     </footer>
   
 
@@ -422,7 +420,7 @@
      <!-- Text modal section-->
      <p class="title-form">Leave your contacts and we will call you back</p>
 
-     <form class="container-form-description" name="inputs" autocomplete="off" novalidate></form>
+     <form class="container-form-description" name="inputs" autocomplete="off" novalidate>
 
     <div>
     <label class="text-input-wrap" for="user-name">Name</label>
@@ -438,7 +436,7 @@
     <div>
     <label class="text-input-wrap" for="phone">Phone</label>
     <div class="input-wrap">
-       <input id="phone" name="phone" type="tel" autofocus />
+       <input id="phone" name="phone" type="tel" />
        <svg class="icon-in-boxes" width="18" height="18">
         <use href="./images/icons.svg#icon-phone">
        </use>
@@ -449,7 +447,7 @@
     <div class="input-wrap-label">
     <label class="text-input-wrap" for="email">Email</label>
     <div class="input-wrap">
-    <input id="email" name="email" type="email" autofocus />
+    <input id="email" name="email" type="email" />
       <svg class="icon-in-boxes" width="18" height="18">
         <use href="./images/icons.svg#icon-email">
        </use>
@@ -469,8 +467,8 @@
      <span class="text-first-part">I accept the terms and conditions of the</span><a href="./index.html" class=""><span class="text-privat">Privacy Policy</span></a>
     </label>
    <button  class="send-form" type="submit">Send</button>
-    </form>
-  </div> 
+   </form>
+  </div>
 
 <script>
   var buttonStyle = document.querySelector('.button-style');
