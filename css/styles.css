@@ -234,6 +234,10 @@ input, textarea {
     border-color: #4D5AE5;
 }
 
+.icon-checkbox-boxes-one {
+    margin-top: 16px;
+    margin-left: 16px;
+}
 .title-form {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -286,6 +290,11 @@ span:checked {
     fill: transparent;
 }
 
+.text-first-part:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
 
 
 .text-privat {
