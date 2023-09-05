@@ -406,55 +406,23 @@
       </div>
     </div> 
     </footer>
+  
 
-    <header class="header-container">
-      <div class="container-logo-nav container">
-        <nav class="navigation-list">
-          
-          <a href="./index.html" class="logo-header">Web<span class="logo-header-text">Studio</span></a> 
-  
-         <ul class="menu"> 
-          <li class="menu-title-text">
-            <a href="./index.html" class="my-link carent">Studio</a></li>
-          <li class="menu-title-text">
-            <a href="" class="my-link">Portfolio</a></li>
-          <li class="menu-title-text">
-            <a href="" class="my-link">Contacts</a></li>
-        
-        </ul>   
-        </nav>
-  
-         <address class="link-contact">     
-          <ul class="link-contact-all">
-          
-            <li class="contact-all"><a href="mailto:info@devstudio.com" class="link-contact-text">info@devstudio.com</a></li>
-            <li class="contact-all"><a href="tel:+110001111111" class="link-contact-text">+11 (000) 111-11-11</a></li>  
-          
-          </ul>      
-        </address>  
-      </div>       
-      </header>
-      <main>
-  
-        <!--Section 1-->
-  
-      <section class="post">
-        <div class="container">
-  
-        <h1 class="post-title">Effective Solutions for Your Business</h1>
-        <button class="button-style is-open" type="button">Order Service</button>
 
     <!-- Modal section all -->
-    <button  class="modal-container" onclick="openModal()"></button>
-    <div id="myModal" class="modal"> 
-     <div class="modal-content">
-    <!-- Button open modal section -->
-   
-    <span class="close" onclick="closeModal()">&times;</span> 
-      <!-- contents modal section -->
-    
-    <form class="container-form-description" name="inputs" autocomplete="off" novalidate>
-    <p class="title-form">Leave your contacts and we will call you back</p>
+    <div class="modal-backdrop is-hidden" id="id-modal-backdrop"></div>
+    <!-- Modal window -->
+    <div class="modal-window">
+    <button class="close" type="button" id="id-close">
+      <svg class="close-x-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+
+     <!-- Text modal section-->
+     <p class="title-form">Leave your contacts and we will call you back</p>
+
+     <form class="container-form-description" name="inputs" autocomplete="off" novalidate></form>
 
     <div>
     <label class="text-input-wrap" for="user-name">Name</label>
@@ -466,7 +434,7 @@
       </svg>
     </div>   
     </div>
-
+    
     <div>
     <label class="text-input-wrap" for="phone">Phone</label>
     <div class="input-wrap">
@@ -477,7 +445,7 @@
      </svg>
     </div>
     </div>
-
+      
     <div class="input-wrap-label">
     <label class="text-input-wrap" for="email">Email</label>
     <div class="input-wrap">
@@ -488,8 +456,8 @@
      </svg>
       </div>
       </div>
-
-    <label class="text-input-wrap">
+    
+  <label class="text-input-wrap">
       Comment
       <textarea class="label-coment-title" name="comment" rows="8"
       placeholder="Text input">
@@ -500,15 +468,20 @@
       <input  type="checkbox" name="frame2" value="I accept the terms and conditions of the Privacy Policy" />
      <span class="text-first-part">I accept the terms and conditions of the</span><a href="./index.html" class=""><span class="text-privat">Privacy Policy</span></a>
     </label>
-   
-    <button  class="send-form" type="submit">Send</button>
-   
-   </form>
-  </div>
-</div>
-        
-        </div>   
-      </section>
-   
-  </body>
+   <button  class="send-form" type="submit">Send</button>
+    </form>
+  </div> 
+
+<script>
+  var buttonStyle = document.querySelector('.button-style');
+  var modalBackdrop = document.querySelector('.modal-backdrop');
+  var Close = document.querySelector('.close');
+  buttonStyle.addEventListener('click', function () {
+    modalBackdrop.classList.remove('is-hidden');
+  });
+  close.addEventListener('click', function () {
+    modalBackdrop.classList.add('is-hidden');
+  });
+</script>
+</body>
 </html>
