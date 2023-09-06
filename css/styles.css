@@ -238,7 +238,7 @@
     margin-bottom: 24px;
 }
 
-.checkbox-addition-privacy:checked + .checkbox-label-text > .text-first-part {
+.checkbox-addition-privacy:checked > .text-first-part {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
@@ -293,13 +293,6 @@
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
-
-.text-first-part:checked {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
-
 
 .text-privat {
     color: #4D5AE5;
