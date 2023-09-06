@@ -238,7 +238,7 @@
     margin-bottom: 24px;
 }
 
-.checkbox-addition-privace:checked + .checkbox-label-text > .text-first-part {
+input:checked + .checkbox-label-text > .text-first-part {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
