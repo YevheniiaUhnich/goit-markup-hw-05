@@ -238,21 +238,25 @@
     margin-bottom: 24px;
 }
 
-input:checked + .visually-hidden {
+.checkbox-addition-privacy:checked + .checkbox-label-text {
     background-color: #404bbf; 
-    border: none; 
-    fill: #F4F4FD;
-}
-input[type="checkbox"]:checked + span {
-    background-color: #404bbf;
     border: none; 
     fill: #F4F4FD;
 }
 
-.visually-hidden {
+.visually-hidden .checkbox-addition-privacy {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
+    position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .checkbox-label-text {
