@@ -238,7 +238,7 @@
     margin-bottom: 24px;
 }
 
-.checkbox-addition-privacy:checked > .text-first-part {
+.checkbox-addition-privacy + .checkbox-label-text:checked > .text-first-part {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
@@ -271,10 +271,6 @@
     margin-left: 8px;
 }
 
-.checkbox-label-text:checked {
-    background-color: #404bbf;
-}
-
 .text-first-part {
     display: inline-flex;
     align-items: center;
@@ -301,6 +297,14 @@
     font-size: 12px;
     line-height: 1.4;
     letter-spacing: 0.02em;
+}
+
+.icon-checkbox-boxes-one {
+   colir: #F4F4FD;
+}
+
+.icon-checkbox-boxes-one:hover {
+    color: #2E2F42;
 }
 
 .logo-header {
