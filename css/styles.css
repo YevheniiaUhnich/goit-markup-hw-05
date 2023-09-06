@@ -151,7 +151,7 @@
 }
 
 .form-input-wrap-addition {
-    margin-bottom: 4px;
+    margin-bottom: 16px;
 }
 
 .input-wrap {
@@ -220,7 +220,7 @@
     
 }
 
-.label-coment-title:focus {
+.label-comment-title:focus {
     border-color: #4D5AE5;
 }
 
@@ -270,6 +270,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-left: 8px;
+}
+
+.checkbox-label-text-addition {
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
 }
 
 .text-first-part {
