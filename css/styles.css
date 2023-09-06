@@ -175,13 +175,15 @@
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.text-line-input:focus>icon-in-boxes {
-    fill: #4D5AE5;
-}
-
 .text-line-input:focus {
     fill: #4D5AE5;
+    border-color: #4D5AE5;
 }
+
+input:checked + .icon-in-boxes {
+    background-color: #4D5AE5; 
+  }
+
 .icon-in-boxes {
     position: absolute;
     margin: 4px;
@@ -234,7 +236,7 @@
     margin-bottom: 24px;
 }
 
-input:checked + span {
+input:checked + .visually-hidden {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
