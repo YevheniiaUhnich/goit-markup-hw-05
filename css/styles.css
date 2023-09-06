@@ -193,14 +193,14 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.icons-in-boxes:focus{
+.icons-in-boxes input:focus{
     fill: #4D5AE5;
 }
 .comment-text-input {
     margin-bottom: 16px;
 }
 
-.label-comment-title {
+.label-comment-title textarea {
     font-size: 12px;
     width: 100%; 
     height: 120px;
@@ -219,7 +219,7 @@
     
 }
 
-.label-coment-title:focus {
+.label-coment-title textarea:focus {
     border-color: #4D5AE5;
 }
 
