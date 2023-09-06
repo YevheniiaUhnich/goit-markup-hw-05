@@ -175,14 +175,14 @@
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.text-line-input .icon-in-boxes:focus {
+    background-color: #4D5AE5; 
+}
+
 .text-line-input:focus {
     fill: #4D5AE5;
     border-color: #4D5AE5;
 }
-
-input:checked + .icon-in-boxes {
-    background-color: #4D5AE5; 
-  }
 
 .icon-in-boxes {
     position: absolute;
