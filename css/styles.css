@@ -52,7 +52,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1); 
     padding-top: 72px;
     padding-left: 24px;
     padding-right: 24px;
@@ -176,8 +176,8 @@
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.text-line-input .icon-in-boxes:focus {
-    background-color: #4D5AE5; 
+.text-line-input:focus + .icon-in-boxes .icon {
+    fill: #4D5AE5; 
 }
 
 .text-line-input:focus {
