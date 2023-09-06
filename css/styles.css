@@ -176,6 +176,10 @@
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.text-line-input:focus {
+    border-color: #4D5AE5;
+}   
+
 .text-line-input:focus + .icon-in-boxes .icon {
     fill: #4D5AE5; 
 }
